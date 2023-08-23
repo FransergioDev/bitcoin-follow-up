@@ -9,8 +9,8 @@ config();
 const readMarketPrice = async(): Promise<number> => {
     const API = process.env.PRICES_API || "";
     const result = await axios.get(API);
-    const data = result.data
-    const price = data.bitcoin.usd
+    const data = result.data;
+    const price = data.bitcoin.usd;
     return price;
 }
 

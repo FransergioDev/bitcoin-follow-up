@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES5",
+            "ES6"
+        ],
+        "baseUrl": "./",
+        "target": "ES5",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "./build",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    }
+}
