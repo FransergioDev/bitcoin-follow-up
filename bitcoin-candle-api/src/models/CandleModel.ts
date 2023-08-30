@@ -12,7 +12,7 @@ export interface Candle extends Document {
 
 const schema = new Schema<Candle>({
     currency: { type: String, required: true },
-    finalDataTime: { type: Date, required: true},
+    finalDataTime: { type: Date, required: false},
     open: {type: Number, required: true},
     close: {type: Number, required: true},
     high: {type: Number, required: true},

@@ -16,3 +16,9 @@
 https://www.coingecko.com/pt
 
 https://www.coingecko.com/pt/api/documentation
+
+## Screenshots
+![Alt text](image.png)
+
+## Autor
+- [@FransergioDev](https://www.github.com/FransergioDev)
